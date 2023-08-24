@@ -35,7 +35,6 @@ export default function App() {
       } catch (error) {
         console.error('Error saving tasks to AsyncStorage:', error);
       }
-      Keyboard.dismiss();
     }
   };
 
